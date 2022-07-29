@@ -59,6 +59,6 @@ app.get('/', (req, res) => {
   })
 });
 
-app.listen(80, () => {
-  console.log("ouvindo na porta 80")
+app.listen(8000, () => {
+  console.log("ouvindo na porta 8000")
 })
