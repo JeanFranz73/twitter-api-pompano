@@ -53,12 +53,12 @@ function webhookPost(twitterInfo) {
 app.get('/', (req, res) => {
   res.status(200).json({
     status: 'ok',
-    
+
     ultimaPostagemWebhook: ultimaData.getTime(),
     ultimoTweet
   })
 });
 
-app.listen(8000, () => {
-  console.log("ouvindo na porta 8000")
+app.listen(80, () => {
+  console.log("ouvindo na porta 80")
 })
